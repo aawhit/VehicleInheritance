@@ -1,5 +1,5 @@
 
-public abstract class Vehicle 
+public class Vehicle 
 {
 protected double speed;
 protected String make;

@@ -1,5 +1,5 @@
 
-public abstract class AirVehicles extends Vehicle
+public class AirVehicles extends Vehicle
 {
 	public AirVehicles()
 	{

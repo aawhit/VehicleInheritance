@@ -1,5 +1,5 @@
 
-public abstract class Motorcycle extends MotorVehicle
+public class Motorcycle extends MotorVehicle
 {
 public Motorcycle()
 	{

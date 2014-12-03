@@ -1,5 +1,5 @@
 
-public abstract class Helicopter extends AirVehicles
+public class Helicopter extends AirVehicles
 {
 public Helicopter()
 	{

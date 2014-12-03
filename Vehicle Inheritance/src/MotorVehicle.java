@@ -1,5 +1,5 @@
 
-public abstract class MotorVehicle extends Vehicle
+public class MotorVehicle extends Vehicle
 {
 public void usesWheels()
 	{
