@@ -1,5 +1,5 @@
 
-public class WithWheels implements HasWheels
+public class NeedsWheels implements HasWheels
 {
 
 @Override

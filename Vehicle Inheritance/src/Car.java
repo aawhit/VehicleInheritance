@@ -5,7 +5,7 @@ public Car()
 	{
 	vehicle = "Car";
 	speed = 200.0;
-	myHasWheels = (HasWheels) new WithWheels();
+	myHasWheels = (HasWheels) new NeedsWheels();
 	}
 public void wheels()
 	{

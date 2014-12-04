@@ -5,7 +5,6 @@ public Helicopter()
 	{
 	speed = 350.0;
 	vehicle = "Helicopter";
-	myHasWheels = (HasWheels) new WithoutWheels();
 	parts = "Rotors";
 	}
 public void speed()

@@ -5,7 +5,7 @@ public class Planes extends AirVehicles
 	{
 	vehicle = "Plane";
 	speed = 700.0;
-	myHasWheels = (HasWheels) new WithoutWheels();
+	myHasWheels = (HasWheels) new NotNeedsWheels();
 	parts = "Wings";
 	}
 	public void speed()
