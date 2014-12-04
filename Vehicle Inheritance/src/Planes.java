@@ -3,15 +3,17 @@ public class Planes extends AirVehicles
 {
 	public Planes()
 	{
-	make = "Boeing";
+	vehicle = "Plane";
 	speed = 700.0;
+	myHasWheels = (HasWheels) new WithoutWheels();
+	parts = "Wings";
 	}
-public void speed()
+	public void speed()
 	{
-	System.out.println("A plane travels at " + speed + " mph.");
+	super.Speed();
 	}
-public void hasWings()
+public void body()
 	{
-	System.out.println("A plane has wings to help fly.");
+	super.body();
 	}
 }

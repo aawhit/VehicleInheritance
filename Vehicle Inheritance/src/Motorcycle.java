@@ -4,19 +4,15 @@ public class Motorcycle extends MotorVehicle
 public Motorcycle()
 	{
 	speed = 150.0;
-	make = "Harley Davidson";
-	//myHasWheels = (HasWheels) new CanRoll();
+	vehicle = "Motorcycle";
+	myHasWheels = (HasWheels) new WithWheels();
 	}
-public void hasWheels()
+public void wheels()
 	{
 	System.out.println("A motorcycle has 2 wheels.");
 	}
 public void speed()
 	{
-	System.out.println("A motorcylce travels at " + speed + " mph.");
-	}
-public void CanRoll()
-	{
-	System.out.println("A motorcyle rolls on wheels.");
+	super.Speed();
 	}
 }

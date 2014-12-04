@@ -4,14 +4,16 @@ public class Helicopter extends AirVehicles
 public Helicopter()
 	{
 	speed = 350.0;
-	make = "EuroCopter";
+	vehicle = "Helicopter";
+	myHasWheels = (HasWheels) new WithoutWheels();
+	parts = "Rotors";
 	}
 public void speed()
 	{
-	System.out.println("A helicopter travels at " + speed + " mph.");
+	super.Speed();
 	}
-public void rotors()
+public void body()
 	{
-	System.out.println("A helicopter has rotors to fly.");
+	super.body();
 	}
 }

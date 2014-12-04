@@ -3,19 +3,16 @@ public class Car extends MotorVehicle
 {
 public Car()
 	{
-	make = "Chevy";
+	vehicle = "Car";
 	speed = 200.0;
+	myHasWheels = (HasWheels) new WithWheels();
 	}
-public void carWheels()
+public void wheels()
 	{
 	System.out.println("A car has 4 wheels.");
 	}
-public void Speed()
+public void speed()
 	{
-	System.out.println("The car is fast, it travels at " + speed + " mph.");
-	}
-public void CanRoll()
-	{
-	System.out.println("A car rolls on wheels.");
+	super.Speed();
 	}
 }
