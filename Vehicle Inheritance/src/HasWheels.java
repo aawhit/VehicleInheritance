@@ -5,5 +5,5 @@ public void Rolls();
 
 public void NeedsWheels();
 
-public void WithoutWheels();
+public void NotNeedsWheels();
 }
