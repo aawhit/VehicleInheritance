@@ -1,9 +1,5 @@
 
 public interface HasWheels 
 {
-public void Rolls();
-
-public void NeedsWheels();
-
-public void NotNeedsWheels();
+public void HasWheels();
 }

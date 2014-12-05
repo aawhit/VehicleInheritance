@@ -12,7 +12,7 @@ public class VehicleRunner
 			{
 			motorvehicle[i].wheels();
 			motorvehicle[i].Speed();
-			motorvehicle[i].myHasWheels.NeedsWheels();
+			motorvehicle[i].myHasWheels.HasWheels();
 			System.out.println("");
 			}
 
@@ -24,7 +24,7 @@ public class VehicleRunner
 			{
 			airvehicles[i].Speed();
 			airvehicles[i].body();
-			airvehicles[i].myHasWheels.NotNeedsWheels();
+			airvehicles[i].myHasWheels.HasWheels();
 			System.out.println("");
 			}	
 	}	

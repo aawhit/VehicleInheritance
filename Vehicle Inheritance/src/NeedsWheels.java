@@ -3,21 +3,9 @@ public class NeedsWheels implements HasWheels
 {
 
 @Override
-public void Rolls() 
+public void HasWheels() 
 	{
-	System.out.println("This vehicle rolls on wheels!");
-	}
-
-@Override
-public void NeedsWheels() {
 	System.out.println("This vehicle needs wheels.");
-	
-}
-
-@Override
-public void NotNeedsWheels() {
-	// TODO Auto-generated method stub
-	
-}
+	}
 
 }
