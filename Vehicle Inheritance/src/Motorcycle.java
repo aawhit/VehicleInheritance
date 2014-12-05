@@ -5,11 +5,12 @@ public Motorcycle()
 	{
 	speed = 150.0;
 	vehicle = "Motorcycle";
+	numWheels = 4;
 	myHasWheels = (HasWheels) new NeedsWheels();
 	}
 public void wheels()
 	{
-	System.out.println("A motorcycle has 2 wheels.");
+	super.wheels();
 	}
 public void speed()
 	{

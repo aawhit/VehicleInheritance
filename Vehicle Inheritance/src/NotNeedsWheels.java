@@ -5,15 +5,17 @@ public void Rolls()
 	{
 	
 	}
+
 @Override
-public void WithWheels() {
+public void NeedsWheels() {
 	// TODO Auto-generated method stub
 	
 }
 
 @Override
-public void WithoutWheels() {
-	// TODO Auto-generated method stub
+public void NotNeedsWheels() {
+	System.out.println("This vehicle doesn't need wheels.");
 	
 }
+
 }

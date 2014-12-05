@@ -9,8 +9,15 @@ public void Rolls()
 	}
 
 @Override
-public void HasWheels() {
+public void NeedsWheels() {
+	System.out.println("This vehicle needs wheels.");
+	
+}
+
+@Override
+public void NotNeedsWheels() {
 	// TODO Auto-generated method stub
 	
 }
+
 }

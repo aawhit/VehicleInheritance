@@ -10,9 +10,9 @@ public class VehicleRunner
 
 		for (int i = 0; i < motorvehicle.length; i++)
 			{
-			motorvehicle[i].usesWheels();
+			motorvehicle[i].wheels();
 			motorvehicle[i].Speed();
-			motorvehicle[i].myHasWheels.WithWheels();
+			motorvehicle[i].myHasWheels.NeedsWheels();
 			System.out.println("");
 			}
 
@@ -24,7 +24,7 @@ public class VehicleRunner
 			{
 			airvehicles[i].Speed();
 			airvehicles[i].body();
-			airvehicles[i].myHasWheels.WithoutWheels();
+			airvehicles[i].myHasWheels.NotNeedsWheels();
 			System.out.println("");
 			}	
 	}	
